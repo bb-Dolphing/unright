@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="styleguide.css" />
+  </head>
+  <style type="text/css">
+  	.slide {
+  background-color: #020204;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.slide .div {
+  background-color: #020204;
+  width: 100%;
+  height: 23363px;
+  position: relative;
+}
+
+.slide .overlap {
+  width: 100%;
+  height: 6324px;
+  top: 14847px;
+  position: absolute;
+  left: 0;
+}
+
+.slide .image {
+  width: 1686px;
+  height: 1643px;
+  top: 4681px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.slide .mask-group {
+  position: absolute;
+  width: 1748px;
+  height: 1542px;
+  top: 4000px;
+  left: 172px;
+}
+
+.slide .img {
+  width: 1702px;
+  height: 2254px;
+  top: 1685px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.slide .image-2 {
+  width: 1442px;
+  height: 1321px;
+  top: 3012px;
+  left: 313px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.slide .rectangle {
+  position: absolute;
+  width: 642px;
+  height: 1756px;
+  top: 0;
+  left: 639px;
+}
+
+.slide .overlap-group {
+  width: 1921px;
+  height: 13364px;
+  top: 1105px;
+  position: absolute;
+  left: 0;
+}
+
+.slide .text-wrapper {
+  position: absolute;
+  top: 7615px;
+  left: 605px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: -1.60px;
+  line-height: 120px;
+}
+
+.slide .element {
+  position: absolute;
+  width: 565px;
+  height: 611px;
+  top: 8080px;
+  left: 1235px;
+  object-fit: cover;
+}
+
+.slide .element-2 {
+  position: absolute;
+  width: 629px;
+  height: 682px;
+  top: 6390px;
+  left: 1014px;
+  object-fit: cover;
+}
+
+.slide .element-3 {
+  position: absolute;
+  width: 538px;
+  height: 604px;
+  top: 6871px;
+  left: 1224px;
+  object-fit: cover;
+}
+
+.slide .element-4 {
+  position: absolute;
+  width: 407px;
+  height: 457px;
+  top: 6562px;
+  left: 333px;
+  object-fit: cover;
+}
+
+.slide .element-5 {
+  position: absolute;
+  width: 263px;
+  height: 295px;
+  top: 7180px;
+  left: 120px;
+  object-fit: cover;
+}
+
+.slide .element-6 {
+  position: absolute;
+  width: 379px;
+  height: 494px;
+  top: 7824px;
+  left: 1541px;
+  object-fit: cover;
+}
+
+.slide .element-7 {
+  position: absolute;
+  width: 357px;
+  height: 400px;
+  top: 8071px;
+  left: 383px;
+  object-fit: cover;
+}
+
+.slide .element-8 {
+  position: absolute;
+  width: 614px;
+  height: 1354px;
+  top: 7730px;
+  left: 0;
+}
+
+.slide .frame {
+  display: flex;
+  flex-direction: column;
+  width: 1921px;
+  align-items: flex-start;
+  gap: 3902px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slide .frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 720px;
+  padding: 369px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.slide .frame-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 800px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.slide .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 100px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.slide .frame-4 {
+  display: flex;
+  flex-direction: column;
+  width: 920px;
+  align-items: flex-start;
+  gap: 48px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.slide .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  margin-right: -165.00px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  letter-spacing: -1.60px;
+  line-height: 104.0px;
+  white-space: nowrap;
+}
+
+.slide .p {
+  position: relative;
+  align-self: stretch;
+  opacity: 0.8;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: -0.80px;
+  line-height: 60px;
+}
+
+.slide .element-a-space-odyssey {
+  position: relative;
+width: 96.25rem;
+height: 43.3125rem;
+aspect-ratio: 20/9;
+border-radius: 2.5rem;
+  transform: scaleX(-1);
+
+  object-fit: cover;
+}
+
+.slide .frame-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.slide .div-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1540px;
+  height: 272px;
+  align-items: flex-start;
+  gap: 100px;
+  position: relative;
+}
+
+.slide .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  margin-right: -146.00px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  letter-spacing: -1.60px;
+  line-height: 104.0px;
+  white-space: nowrap;
+}
+
+.slide .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-right: -212.00px;
+  opacity: 0.8;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: -0.80px;
+  line-height: 60px;
+}
+
+.slide .element-9 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 985px;
+  object-fit: cover;
+  background-image: url(img/22.png);
+    background-attachment: fixed;
+      background-size: cover;
+}
+
+.slide .element-aa {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 985px;
+  object-fit: cover;
+  background-image: url(img/hh.png);
+    background-attachment: fixed;
+      background-size: cover;
+}
+.slide .frame-6 {
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  align-items: center;
+  gap: 100px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.slide .frame-7 {
+  display: flex;
+  flex-direction: column;
+  width: 1540px;
+  align-items: flex-start;
+  gap: 100px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.slide .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  letter-spacing: -1.60px;
+  line-height: 104.0px;
+  white-space: nowrap;
+}
+
+.slide .element-10 {
+  position: relative;
+  width: fit-content;
+  margin-right: -75.00px;
+  opacity: 0.8;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: -0.80px;
+  line-height: 60px;
+}
+
+.slide .element-11 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1144px;
+  background-image: url(img/33.png);
+  background-attachment: fixed;
+      background-size: cover;
+}
+
+.slide .frame-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 720px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.slide .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-right: -43.00px;
+  opacity: 0.8;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: -0.80px;
+  line-height: 60px;
+}
+
+.slide .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: -1.60px;
+  line-height: 120px;
+}
+
+.slide .frame-9 {
+  display: flex;
+  flex-direction: column;
+  width: 1920.69px;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.slide .element-12 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 399px;
+}
+
+.slide .text-wrapper-8 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: -1.60px;
+  line-height: 120px;
+}
+
+.slide .frame-10 {
+  display: flex;
+  flex-direction: column;
+  width: 880px;
+  align-items: center;
+  gap: 100px;
+  position: absolute;
+  top: 22535px;
+  left: 509px;
+}
+
+.slide .text-wrapper-9 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: -1.60px;
+  line-height: 120px;
+}
+
+.slide .component {
+  display: flex;
+  width: 106px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+  position: relative;
+  background-color: #e8ff77;
+  border-radius: 43px;
+}
+
+.slide .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  margin-left: -6.50px;
+  margin-right: -6.50px;
+  font-family: "Pretendard-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #121212;
+  font-size: 22px;
+  letter-spacing: -0.44px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.slide .frame-11 {
+  display: flex;
+  flex-direction: column;
+  width: 1540px;
+  align-items: flex-start;
+  gap: 27px;
+  position: absolute;
+  top: 23289px;
+  left: 190px;
+}
+
+.slide .frame-12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.slide .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff99;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.32px;
+  line-height: 20.8px;
+  white-space: nowrap;
+}
+
+.slide .frame-13 {
+  display: flex;
+  width: 1920px;
+  height: 69px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 43px 190px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #02020499;
+  border-bottom-width: 0.6px;
+  border-bottom-style: solid;
+  border-color: #ffffff;
+  backdrop-filter: blur(35px) brightness(100%);
+  -webkit-backdrop-filter: blur(35px) brightness(100%);
+}
+
+.slide .frame-14 {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -20.50px;
+  margin-bottom: -20.50px;
+}
+
+.slide .text-wrapper-12 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff99;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.slide .text-wrapper-13 {
+  margin-top: -29.60px;
+  margin-bottom: -28.40px;
+  font-size: 34px;
+  letter-spacing: -0.68px;
+  position: relative;
+  width: fit-content;
+  font-family: "Montserrat-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+  line-height: normal;
+}
+
+.slide .text-wrapper-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.slide .frame-15 {
+  display: flex;
+  width: 1920px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 19px 755px;
+  position: absolute;
+  top: 23194px;
+  left: 0;
+  background-color: #282828;
+}
+
+.slide .text-wrapper-15 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: 26.0px;
+  white-space: nowrap;
+}
+
+.slide .frame-16 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top: 69px;
+}
+
+.slide .frame-17 {
+  display: flex;
+  height: 946px;
+    width: 100%;
+
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 101px 204px;
+  position: relative;
+  align-self: stretch;
+}
+
+.slide .frame-18 {
+  display: inline-flex;
+  align-items: center;
+    width: 100%;
+
+  justify-content: center;
+  gap: 40px;
+  position: absolute;
+  top: 228px;
+}
+
+.slide .GIF {
+  position: relative;
+  width: 490px;
+  height: 490px;
+  object-fit: cover;
+}
+
+.slide .text-wrapper-16 {
+text-shadow: 0px 0px 94px #E8FF77, 0px 0px 14px rgba(255, 255, 255, 0.60), 0px 0px 19px #A1DBFF, 0px 0px 84px #009DFF;
+  font-size: 236.2px;
+  letter-spacing: -4.72px;
+  position: relative;
+  width: fit-content;
+  font-family: "Montserrat-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+  line-height: normal;
+}
+
+.slide .component-frame {
+  left: 0;
+  position: absolute;
+  width: 1686px;
+  height: 90px;
+  top: 0;
+  background-color: #e8ff77;
+}
+
+.slide .frame-19 {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  position: relative;
+  top: 19px;
+}
+
+.slide .text-wrapper-17 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #121212;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.80px;
+  line-height: 52.0px;
+  white-space: nowrap;
+}
+.component-2 {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  white-space: nowrap;
+  position: relative;
+ padding: 1.1875rem 0.625rem 1.1875rem 0rem;
+background: #E8FF77;
+}
+
+.txtflow-wrap {
+  display: inline-block;
+  white-space: nowrap;
+  animation: text-to-right 20s linear infinite;
+  will-change: transform;
+}
+
+.txtflow {
+  display: inline-block;
+  font-family: Pretendard;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #121212;
+  line-height: 130%;
+  letter-spacing: -0.05rem;
+  padding-right: 1rem; /* 간격 조정 */
+}
+
+@keyframes text-to-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+
+  </style>
+  <body>
+    <div class="slide">
+      <div class="div">
+        <div class="overlap">
+          <img class="image" src="img/image-18.png" />
+          <img class="mask-group" src="img/mask-group.png" />
+          <img class="img" src="img/image-17.png" />
+          <img class="image-2" src="img/image-19.png" />
+          <img class="rectangle" src="img/rectangle.png" />
+        </div>
+        <div class="overlap-group">
+          <div class="text-wrapper">왼손잡이로 세상을 바꾼<br />수많은 영웅들</div>
+          <img class="element" src="img/8.png" />
+          <img class="element-2" src="img/7.png" />
+          <img class="element-3" src="img/6.png" />
+          <img class="element-4" src="img/5.png" />
+          <img class="element-5" src="img/4.png" />
+          <img class="element-6" src="img/3.png" />
+          <img class="element-7" src="img/2.png" />
+          <img class="element-8" src="img/1.png" />
+          <div class="frame">
+            <div class="frame-2">
+              <div class="frame-wrapper">
+                <div class="frame-3">
+                  <div class="frame-4">
+                    <div class="text-wrapper-2">여긴 UNRIGHT, 왼손의 세계입니다</div>
+                    <p class="p">
+                      왼손이 역사의 시작이었습니다.<br />그러나 오른손은 끝내 우리를 밀어내고, 세상을 지배했습니다.
+                    </p>
+                  </div>
+                  <img class="element-a-space-odyssey" src="img/2001-a-space-odyssey-1.gif" />
+                </div>
+              </div>
+              <div class="frame-5">
+                <div class="div-wrapper">
+                  <div class="frame-3">
+                    <div class="frame-4">
+                      <div class="text-wrapper-3">그들은 사실 왼손을 두려워했습니다</div>
+                      <p class="text-wrapper-4">
+                        고대 이집트, 로마, 그리스, 그리고 중세 유럽에 이르기까지, <br />왼손은 불길함과 배신, 불운의
+                        상징으로 여겨졌고 우리는 핍박받아왔습니다.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="element-9"></div>
+              </div>
+              <div class="frame-6">
+                <div class="frame-7">
+                  <div class="frame-4">
+                    <div class="text-wrapper-5">왼손으로 세상을 다시 쓰다</div>
+                    <p class="element-10">
+                      그럼에도 불구하고, 미켈란젤로, 레오나르도 다빈치, 람세스 2세 등<br />수많은 위대한 인물들이
+                      왼손으로 세상을 바꾸었습니다
+                    </p>
+                  </div>
+                </div>
+                 <div class="element-aa"></div>
+              </div>
+            </div>
+            <div class="frame-8">
+              <div class="frame-5">
+                <div class="frame-7">
+                  <div class="frame-4">
+                    <div class="text-wrapper-5">우리는 그 유산을 잇습니다</div>
+                    <p class="text-wrapper-6">
+                      왼손으로 역사를 써 내려간 이들의 발자취 위에,<br />우리는 오늘도 조용히, 그러나 확실하게 세상을
+                      바꾸고 있습니다.
+                    </p>
+                  </div>
+                </div>
+                <div class="element-11"></div>
+              </div>
+              <div class="text-wrapper-7">우리가 진짜 하는 일이<br />뭐냐고요?</div>
+              <div class="frame-9">
+                <img class="element-12" src="img/136-1.png" />
+                <p class="text-wrapper-8">여러분이 세상을 바꿀 물건을 전달합니다</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-10">
+          <p class="text-wrapper-9">
+            이제 더 이상 적응하지 마세요<br />
+            세상이 바뀔 차례니까요
+          </p>
+          <div class="component"><div class="text-wrapper-10">SHOP</div></div>
+        </div>
+        <div class="frame-11">
+          <div class="frame-12">
+            <p class="text-wrapper-11">Copyright © 2025 UNRIGHT Inc. All rights reserved.</p>
+            <div class="text-wrapper-11">KOREA</div>
+          </div>
+        </div>
+        <div class="frame-13">
+          <div class="frame-14">
+            <div class="text-wrapper-12">My account</div>
+            <div class="text-wrapper-12">Cart</div>
+          </div>
+          <div class="text-wrapper-13">UNRIGHT</div>
+          <div class="frame-14">
+            <div class="text-wrapper-14">About</div>
+            <div class="text-wrapper-12">Shop</div>
+            <div class="text-wrapper-12">Collection</div>
+          </div>
+        </div>
+        <div class="frame-15"><p class="text-wrapper-15">오른손잡이 환영? No thanks 오른쪽으로 꺼져 주세요.</p></div>
+        <div class="frame-16">
+          <div class="frame-17">
+            <div class="frame-18">
+              <img class="GIF" src="img/earth.gif" />
+              <img class="GIF" src="img/earth.gif" />
+              <img class="GIF" src="img/earth.gif" />
+            </div>
+            <div class="text-wrapper-16">UNRIGHT</div>
+          </div>
+<div class="component-2">
+  <div class="txtflow-wrap">
+    <span class="txtflow">
+      오른손잡이 환영? No thanks 오른쪽으로 꺼져 주세요.
+    </span>
+    <span class="txtflow">
+      오른손잡이 환영? No thanks 오른쪽으로 꺼져 주세요.
+    </span>
+    <span class="txtflow">
+      오른손잡이 환영? No thanks 오른쪽으로 꺼져 주세요.
+    </span>
+    <span class="txtflow">
+      오른손잡이 환영? No thanks 오른쪽으로 꺼져 주세요.
+    </span>
+        <span class="txtflow">
+      오른손잡이 환영? No thanks 오른쪽으로 꺼져 주세요.
+    </span>
+        <span class="txtflow">
+      오른손잡이 환영? No thanks 오른쪽으로 꺼져 주세요.
+    </span>
+        <span class="txtflow">
+      오른손잡이 환영? No thanks 오른쪽으로 꺼져 주세요.
+    </span>
+        <span class="txtflow">
+      오른손잡이 환영? No thanks 오른쪽으로 꺼져 주세요.
+    </span>
+  </div>
+</div>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
