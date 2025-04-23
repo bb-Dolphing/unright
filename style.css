@@ -1,0 +1,699 @@
+.slide {
+  background-color: #020204;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.slide .div {
+  background-color: #020204;
+  overflow: hidden;
+  width: 1920px;
+  height: 23363px;
+  position: relative;
+}
+
+.slide .overlap {
+  width: 1920px;
+  height: 6324px;
+  top: 14847px;
+  position: absolute;
+  left: 0;
+}
+
+.slide .image {
+  width: 1686px;
+  height: 1643px;
+  top: 4681px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.slide .mask-group {
+  position: absolute;
+  width: 1748px;
+  height: 1542px;
+  top: 4000px;
+  left: 172px;
+}
+
+.slide .img {
+  width: 1702px;
+  height: 2254px;
+  top: 1685px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.slide .image-2 {
+  width: 1442px;
+  height: 1321px;
+  top: 3012px;
+  left: 313px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.slide .rectangle {
+  position: absolute;
+  width: 642px;
+  height: 1756px;
+  top: 0;
+  left: 639px;
+}
+
+.slide .overlap-group {
+  width: 1921px;
+  height: 13364px;
+  top: 1105px;
+  position: absolute;
+  left: 0;
+}
+
+.slide .text-wrapper {
+  position: absolute;
+  top: 7615px;
+  left: 605px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: -1.60px;
+  line-height: 120px;
+}
+
+.slide .element {
+  position: absolute;
+  width: 565px;
+  height: 611px;
+  top: 8080px;
+  left: 1235px;
+  object-fit: cover;
+}
+
+.slide .element-2 {
+  position: absolute;
+  width: 629px;
+  height: 682px;
+  top: 6390px;
+  left: 1014px;
+  object-fit: cover;
+}
+
+.slide .element-3 {
+  position: absolute;
+  width: 538px;
+  height: 604px;
+  top: 6871px;
+  left: 1224px;
+  object-fit: cover;
+}
+
+.slide .element-4 {
+  position: absolute;
+  width: 407px;
+  height: 457px;
+  top: 6562px;
+  left: 333px;
+  object-fit: cover;
+}
+
+.slide .element-5 {
+  position: absolute;
+  width: 263px;
+  height: 295px;
+  top: 7180px;
+  left: 120px;
+  object-fit: cover;
+}
+
+.slide .element-6 {
+  position: absolute;
+  width: 379px;
+  height: 494px;
+  top: 7824px;
+  left: 1541px;
+  object-fit: cover;
+}
+
+.slide .element-7 {
+  position: absolute;
+  width: 357px;
+  height: 400px;
+  top: 8071px;
+  left: 383px;
+  object-fit: cover;
+}
+
+.slide .element-8 {
+  position: absolute;
+  width: 614px;
+  height: 1354px;
+  top: 7730px;
+  left: 0;
+}
+
+.slide .frame {
+  display: flex;
+  flex-direction: column;
+  width: 1921px;
+  align-items: flex-start;
+  gap: 3902px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slide .frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 720px;
+  padding: 369px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.slide .frame-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 800px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.slide .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 100px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.slide .frame-4 {
+  display: flex;
+  flex-direction: column;
+  width: 920px;
+  align-items: flex-start;
+  gap: 48px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.slide .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  margin-right: -165.00px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  letter-spacing: -1.60px;
+  line-height: 104.0px;
+  white-space: nowrap;
+}
+
+.slide .p {
+  position: relative;
+  align-self: stretch;
+  opacity: 0.8;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: -0.80px;
+  line-height: 60px;
+}
+
+.slide .element-a-space-odyssey {
+  position: relative;
+  width: 1540px;
+  height: 693px;
+  object-fit: cover;
+}
+
+.slide .frame-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.slide .div-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1540px;
+  height: 272px;
+  align-items: flex-start;
+  gap: 100px;
+  position: relative;
+}
+
+.slide .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  margin-right: -146.00px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  letter-spacing: -1.60px;
+  line-height: 104.0px;
+  white-space: nowrap;
+}
+
+.slide .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-right: -212.00px;
+  opacity: 0.8;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: -0.80px;
+  line-height: 60px;
+}
+
+.slide .element-9 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 985px;
+  object-fit: cover;
+}
+
+.slide .frame-6 {
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  align-items: center;
+  gap: 100px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.slide .frame-7 {
+  display: flex;
+  flex-direction: column;
+  width: 1540px;
+  align-items: flex-start;
+  gap: 100px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.slide .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  letter-spacing: -1.60px;
+  line-height: 104.0px;
+  white-space: nowrap;
+}
+
+.slide .element-10 {
+  position: relative;
+  width: fit-content;
+  margin-right: -75.00px;
+  opacity: 0.8;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: -0.80px;
+  line-height: 60px;
+}
+
+.slide .element-11 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1144px;
+}
+
+.slide .frame-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 720px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.slide .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-right: -43.00px;
+  opacity: 0.8;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: -0.80px;
+  line-height: 60px;
+}
+
+.slide .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: -1.60px;
+  line-height: 120px;
+}
+
+.slide .frame-9 {
+  display: flex;
+  flex-direction: column;
+  width: 1920.69px;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.slide .element-12 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 399px;
+}
+
+.slide .text-wrapper-8 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: -1.60px;
+  line-height: 120px;
+}
+
+.slide .frame-10 {
+  display: flex;
+  flex-direction: column;
+  width: 880px;
+  align-items: center;
+  gap: 100px;
+  position: absolute;
+  top: 22535px;
+  left: 509px;
+}
+
+.slide .text-wrapper-9 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Pretendard-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: -1.60px;
+  line-height: 120px;
+}
+
+.slide .component {
+  display: flex;
+  width: 106px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+  position: relative;
+  background-color: #e8ff77;
+  border-radius: 43px;
+}
+
+.slide .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  margin-left: -6.50px;
+  margin-right: -6.50px;
+  font-family: "Pretendard-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #121212;
+  font-size: 22px;
+  letter-spacing: -0.44px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.slide .frame-11 {
+  display: flex;
+  flex-direction: column;
+  width: 1540px;
+  align-items: flex-start;
+  gap: 27px;
+  position: absolute;
+  top: 23289px;
+  left: 190px;
+}
+
+.slide .frame-12 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.slide .text-wrapper-11 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff99;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.32px;
+  line-height: 20.8px;
+  white-space: nowrap;
+}
+
+.slide .frame-13 {
+  display: flex;
+  width: 1920px;
+  height: 69px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 43px 190px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #02020499;
+  border-bottom-width: 0.6px;
+  border-bottom-style: solid;
+  border-color: #ffffff;
+  backdrop-filter: blur(35px) brightness(100%);
+  -webkit-backdrop-filter: blur(35px) brightness(100%);
+}
+
+.slide .frame-14 {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -20.50px;
+  margin-bottom: -20.50px;
+}
+
+.slide .text-wrapper-12 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff99;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.slide .text-wrapper-13 {
+  margin-top: -29.60px;
+  margin-bottom: -28.40px;
+  font-size: 34px;
+  letter-spacing: -0.68px;
+  position: relative;
+  width: fit-content;
+  font-family: "Montserrat-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+  line-height: normal;
+}
+
+.slide .text-wrapper-14 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.slide .frame-15 {
+  display: flex;
+  width: 1920px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 19px 755px;
+  position: absolute;
+  top: 23194px;
+  left: 0;
+  background-color: #282828;
+}
+
+.slide .text-wrapper-15 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.40px;
+  line-height: 26.0px;
+  white-space: nowrap;
+}
+
+.slide .frame-16 {
+  display: flex;
+  flex-direction: column;
+  width: 1930px;
+  align-items: flex-end;
+  position: absolute;
+  top: 69px;
+  left: -10px;
+}
+
+.slide .frame-17 {
+  display: flex;
+  height: 946px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 101px 204px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.slide .frame-18 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  position: absolute;
+  top: 228px;
+  left: 190px;
+}
+
+.slide .GIF {
+  position: relative;
+  width: 490px;
+  height: 490px;
+  object-fit: cover;
+}
+
+.slide .text-wrapper-16 {
+  text-shadow: 0px 0px 84px #009dff;
+  font-size: 236.2px;
+  letter-spacing: -4.72px;
+  position: relative;
+  width: fit-content;
+  font-family: "Montserrat-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  text-align: center;
+  line-height: normal;
+}
+
+.slide .component-2 {
+  position: relative;
+  width: 1920px;
+  height: 90px;
+  overflow: hidden;
+}
+
+.slide .component-frame {
+  left: 0;
+  position: absolute;
+  width: 1686px;
+  height: 90px;
+  top: 0;
+  background-color: #e8ff77;
+}
+
+.slide .frame-19 {
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  position: relative;
+  top: 19px;
+}
+
+.slide .text-wrapper-17 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Pretendard-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #121212;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -0.80px;
+  line-height: 52.0px;
+  white-space: nowrap;
+}
+
+.slide .component-frame-2 {
+  left: 1686px;
+  position: absolute;
+  width: 1686px;
+  height: 90px;
+  top: 0;
+  background-color: #e8ff77;
+}

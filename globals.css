@@ -5,9 +5,9 @@
 }
 html,
 body {
-width: 120rem;
-height: 1460.1875rem;
-  display: flex;
+width: 100vw;
+background-color: #020204;
+
 }
 /* a blue color as a generic focus style */
 button:focus-visible {
