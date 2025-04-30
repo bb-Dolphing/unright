@@ -79,11 +79,16 @@ p{word-break: keep-all;}
 }
 
 .slide .overlap-group {
-  width: 100vw;
-  height: 13364px;
-  top: 1105px;
-  position: absolute;
-  left: 0;
+    top: 1105px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .slide .text-wrapper {
@@ -105,7 +110,7 @@ left: 50%;
   width: 565px;
   height: 611px;
   top: 8080px;
-    right: 825px;
+  right: 15px;
   object-fit: cover;
 }
 
@@ -113,8 +118,8 @@ left: 50%;
   position: absolute;
   width: 629px;
   height: 682px;
-  top: 6390px;
-    right: 864px;
+  top: 6520px;
+    right: 94px;
   object-fit: cover;
 }
 
@@ -123,7 +128,7 @@ left: 50%;
   width: 538px;
   height: 604px;
   top: 6871px;
-right: 544px;
+  right: 64px;
   object-fit: cover;
 }
 
@@ -132,7 +137,7 @@ right: 544px;
   width: 407px;
   height: 457px;
   top: 6562px;
-  left: 333px;
+  left: 243px;
   object-fit: cover;
 }
 
@@ -174,7 +179,7 @@ right: 544px;
 .slide .frame {
   display: flex;
   flex-direction: column;
-    width: 100vw;
+  width: 100vw;
   align-items: flex-start;
   gap: 3902px;
   position: absolute;
@@ -186,7 +191,6 @@ right: 544px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 720px;
   padding: 369px 0px 0px;
   position: relative;
   align-self: stretch;
@@ -205,13 +209,14 @@ right: 544px;
 
 .slide .frame-3 {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 100px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 100px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    padding-bottom: 720px;
 }
 
 .slide .frame-4 {
@@ -270,6 +275,7 @@ border-radius: 2.5rem;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
+  padding-bottom: 720px;
 }
 
 .slide .div-wrapper {
@@ -278,7 +284,6 @@ border-radius: 2.5rem;
   width: 1540px;
   height: 272px;
   align-items: flex-start;
-  gap: 100px;
   position: relative;
 }
 
@@ -311,13 +316,13 @@ border-radius: 2.5rem;
 
 .slide .element-9 {
   position: relative;
-  align-self: stretch;
   width: 100%;
   height: 985px;
-  object-fit: cover;
-  background-image: url(img/22.png);
-    background-attachment: fixed;
-      background-size: cover;
+  background-image: url('img/22.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .slide .element-aa {
@@ -390,7 +395,6 @@ border-radius: 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 720px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -413,6 +417,7 @@ border-radius: 2.5rem;
 .slide .text-wrapper-7 {
   position: relative;
   width: fit-content;
+  padding-bottom: 720px;
   font-family: "Pretendard-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
@@ -434,9 +439,7 @@ border-radius: 2.5rem;
 .slide .element-12 {
   position: relative;
   align-self: stretch;
-  width: 100%;
-  height: 399px;
-}
+  width: 100%;}
 
 .slide .text-wrapper-8 {
   position: relative;
@@ -503,23 +506,24 @@ border-radius: 2.5rem;
 
 .slide .frame-11 {
   display: flex;
-  flex-direction: column;
-  width: 1540px;
-  align-items: flex-start;
-  gap: 27px;
-  position: absolute;
-  top: 23289px;
-  left: 190px;
+    flex-direction: column;
+    width: 90%; /* 또는 max-width: 1540px */
+    max-width: 1540px;
+    align-items: flex-start;
+    gap: 27px;
+    margin: 0 auto;
+    position: relative; /* absolute 제거 */
+    top: 23289px;
 }
 
 .slide .frame-12 {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
 }
 
 .slide .text-wrapper-11 {
@@ -537,6 +541,7 @@ border-radius: 2.5rem;
 }
 
 .slide .frame-13 {
+  z-index: 9999;
   display: flex;
   height: 69px;
   align-items: center;
@@ -611,7 +616,7 @@ border-radius: 2.5rem;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 19px 755px;
+  padding: 19px;
   position: absolute;
   top: 23194px;
   left: 0;
@@ -642,47 +647,48 @@ border-radius: 2.5rem;
 }
 
 .slide .frame-17 {
-  display: flex;
-  height: 946px;
+    display: flex;
+    height: 946px;
     width: 100%;
-
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 101px 204px;
-  position: relative;
-  align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 101px 204px;
+    align-self: stretch;
 }
 
 .slide .frame-18 {
-  display: inline-flex;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     width: 100%;
-
-  justify-content: center;
-  gap: 40px;
-  position: absolute;
-  top: 228px;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* 간격을 설정하여 GIF들이 가로로 붙도록 함 */
+    z-index: 1;
 }
 
 .slide .GIF {
-  position: relative;
-  width: 490px;
-  height: 490px;
-  object-fit: cover;
+    width: 25vw;
+    max-width: 30.625rem;
+    min-width: 12rem;
+    height: auto;
+    object-fit: contain;
 }
 
-.slide .text-wrapper-16 {
-text-shadow: 0px 0px 94px #E8FF77, 0px 0px 14px rgba(255, 255, 255, 0.60), 0px 0px 19px #A1DBFF, 0px 0px 84px #009DFF;
-  font-size: 236.2px;
-  letter-spacing: -4.72px;
-  position: relative;
-  width: fit-content;
-  font-family: "Montserrat", Helvetica;
-  font-weight: 900;
-  color: #ffffff;
-  text-align: center;
-  line-height: normal;
+.text-wrapper-16 {
+    text-shadow: 0px 0px 94px #E8FF77, 0px 0px 14px rgba(255, 255, 255, 0.60), 0px 0px 19px #A1DBFF, 0px 0px 84px #009DFF;
+    font-size: 14.76563em;
+    letter-spacing: -4.72px;
+    position: absolute;
+    top: 34%; /* 텍스트를 GIF 위에 고정시킴 */
+    width: fit-content;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal;
+    z-index: 2; /* 텍스트가 GIF들 위로 오도록 설정 */
 }
 
 .slide .component-frame {
@@ -727,9 +733,9 @@ background: #E8FF77;
 
 .txtflow-wrap {
   display: inline-block;
-  white-space: nowrap;
-  animation: text-to-right 20s linear infinite;
-  will-change: transform;
+    white-space: nowrap;
+    animation: text-to-right 30s linear infinite;
+    will-change: transform;
 }
 
 .txtflow {
@@ -737,10 +743,19 @@ background: #E8FF77;
   font-family: Pretendard;
   font-size: 2.5rem;
   font-weight: 600;
-  color: #121212;
+  color:#121212;
   line-height: 130%;
   letter-spacing: -0.05rem;
   padding-right: 1rem; /* 간격 조정 */
+}
+
+.component {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.component:hover {
+  background-color: #d6eb66; /* hover 색상 예시 */
 }
 
 @keyframes text-to-right {
@@ -841,7 +856,9 @@ background: #E8FF77;
             이제 더 이상 적응하지 마세요<br />
             세상이 바뀔 차례니까요
           </p>
-          <div class="component"><div class="text-wrapper-10">SHOP</div></div>
+          <button class="component">
+            <span class="text-wrapper-10">SHOP</span>
+          </button>
         </div>
         <div class="frame-11">
           <div class="frame-12">
